@@ -1,0 +1,291 @@
+{
+  "contractName": "IDappState",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getContractOwner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "increment",
+          "type": "uint256"
+        }
+      ],
+      "name": "incrementCounter",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getCounter",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getContractOwner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getCounter\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"increment\",\"type\":\"uint256\"}],\"name\":\"incrementCounter\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IDappState.sol\":\"IDappState\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IDappState.sol\":{\"keccak256\":\"0x622b0c75e575f2a7874b46e0351693126504d95bb291abc5068ffc0890f9108c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6b1226a3dd83a668c2e1a09f87be7140430a88a3ef74996f9c82c7a791a6a62c\",\"dweb:/ipfs/QmWme6Au1G9Tj6gZTEN2oWUCwhEKeKfKeN1h7AosWqwGeU\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\npragma experimental ABIEncoderV2;\n\n/********************************************************************************************/\n/*  This contract is the interface for DappState.sol functions used in Dapp.sol             */\n/*  to enable DappState functions to be called from Dapp. You can restrict the functions    */\n/*  in DappState directly known to Dapp by limiting the definitions you include here.       */\n/*  It's OK to not use IDappState and Dapp, but if you do use them, it's highly recommended */\n/*  that you use the DappStarter \"Contract Access\" feature  block so you can limit which    */\n/*  contracts can call in to the DappState contract.                                        */\n/********************************************************************************************/\n\ninterface IDappState {\n    function getContractOwner() external view returns(address);     // Example READ function\n    function incrementCounter(uint256 increment) external;          // Example WRITE function\n    function getCounter() external view returns(uint256);           // Another example READ function\n}",
+  "sourcePath": "/Users/nik/Developer/Decentology/DappStarter/vulcan-preview/packages/dapplib/contracts/interfaces/IDappState.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IDappState.sol",
+    "exportedSymbols": {
+      "IDappState": [
+        1158
+      ]
+    },
+    "id": 1159,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1141,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:5"
+      },
+      {
+        "id": 1142,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "56:33:5"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IDappState",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1158,
+        "linearizedBaseContracts": [
+          1158
+        ],
+        "name": "IDappState",
+        "nameLocation": "862:10:5",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "442890d5",
+            "id": 1147,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getContractOwner",
+            "nameLocation": "888:16:5",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1143,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "904:2:5"
+            },
+            "returnParameters": {
+              "id": 1146,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1145,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1147,
+                  "src": "929:7:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1144,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "929:7:5",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "928:9:5"
+            },
+            "scope": 1158,
+            "src": "879:59:5",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "6abbb3b4",
+            "id": 1152,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "incrementCounter",
+            "nameLocation": "981:16:5",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1150,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1149,
+                  "mutability": "mutable",
+                  "name": "increment",
+                  "nameLocation": "1006:9:5",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1152,
+                  "src": "998:17:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1148,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "998:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "997:19:5"
+            },
+            "returnParameters": {
+              "id": 1151,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1025:0:5"
+            },
+            "scope": 1158,
+            "src": "972:54:5",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "8ada066e",
+            "id": 1157,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getCounter",
+            "nameLocation": "1075:10:5",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1153,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1085:2:5"
+            },
+            "returnParameters": {
+              "id": 1156,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1155,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1157,
+                  "src": "1110:7:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1154,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1110:7:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1109:9:5"
+            },
+            "scope": 1158,
+            "src": "1066:53:5",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1159,
+        "src": "852:312:5",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:1132:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-04T00:12:56.205Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

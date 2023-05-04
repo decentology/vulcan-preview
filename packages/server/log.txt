@@ -1,0 +1,1942 @@
+yarn run v1.22.19
+$ nest start --watch
+c[[90m1:34:49 PM[0m] Starting compilation in watch mode...
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m']' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                 ~~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                         ~~~~~~~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m70[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                     [0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                  ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                   ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m88[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                       ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m68[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                            ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m78[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                             ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                               ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m106[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m106[0m     RemoveTail<RemoveTail<S, `/${string}`>, `-${string}`>,
+[7m   [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m106[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m106[0m     RemoveTail<RemoveTail<S, `/${string}`>, `-${string}`>,
+[7m   [0m [91m                                               ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m107[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m107[0m     `.${string}`
+[7m   [0m [91m       ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                     ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                         ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                          ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m35[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                  ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                           ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                   ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                           ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m70[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                                     ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                           ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m239[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m239[0m      * Map the given param placeholder `name`(s) to the given callback(s).
+[7m   [0m [91m                                        ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m248[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m248[0m      * of the user. Once the `next()` function is invoked, just like middleware
+[7m   [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m274[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m274[0m      * Special-cased "all" method, applying the given route `path`,
+[7m   [0m [91m                                                             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m370[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m370[0m  * @param P  For most requests, this should be `ParamsDictionary`, but if you're
+[7m   [0m [91m                                                ~~~~~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m371[0m:[93m59[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m371[0m  * using this in a route handler for a route that uses a `RegExp` or a wildcard
+[7m   [0m [91m                                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m    ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m                        ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m                                           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m373[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m373[0m  * which case you should use `ParamsArray` instead.
+[7m   [0m [91m                              ~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m378[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m378[0m  *     app.get('/user/:id', (req, res) => res.send(req.params.id)); // implicitly `ParamsDictionary`
+[7m   [0m [91m                                                                                   ~~~~~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m393[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m393[0m      * The `Referrer` header field is special-cased,
+[7m   [0m [91m            ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m394[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m394[0m      * both `Referrer` and `Referer` are interchangeable.
+[7m   [0m [91m             ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m394[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m394[0m      * both `Referrer` and `Referer` are interchangeable.
+[7m   [0m [91m                            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m407[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m407[0m      * Aliased as `req.header()`.
+[7m   [0m [91m                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m416[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m416[0m      * Check if the given `type(s)` is acceptable, returning
+[7m   [0m [91m                           ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m417[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m417[0m      * the best match when true, otherwise `undefined`, in which
+[7m   [0m [91m                                            ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m420[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m420[0m      * The `type` value may be a single mime type string
+[7m   [0m [91m            ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m494[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m494[0m      * Parse Range header field, capping to the given `size`.
+[7m   [0m [91m                                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m498[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m498[0m      * If the Range header field is not given `undefined` is returned.
+[7m   [0m [91m                                               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m517[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m517[0m      * Return the value of param `name` when present or `defaultValue`.
+[7m   [0m [91m                                  ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m517[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m517[0m      * Return the value of param `name` when present or `defaultValue`.
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m523[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m523[0m      * To utilize request bodies, `req.body`
+[7m   [0m [91m                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m525[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m525[0m      * the `connect.bodyParser()` middleware.
+[7m   [0m [91m            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m531[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m531[0m      * header field, and it contains the give mime `type`.
+[7m   [0m [91m                                                    ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m571[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m571[0m      * "trust proxy" is `true` return
+[7m   [0m [91m                         ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m577[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m577[0m      * When "trust proxy" is `true`, parse
+[7m   [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m600[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m600[0m      * Short-hand for `url.parse(req.url).pathname`.
+[7m   [0m [91m                       ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m680[0m:[93m76[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m680[0m     /** Object containing HTTP headers to serve with the file. The header `Content-Disposition` will be overridden by the filename argument. */
+[7m   [0m [91m                                                                           ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m691[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m691[0m      * Set status `code`.
+[7m   [0m [91m                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m696[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m696[0m      * Set the response HTTP status code to `statusCode` and send its string representation as the response body.
+[7m   [0m [91m                                             ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m709[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m709[0m      * Set Link header field with the given `links`.
+[7m   [0m [91m                                             ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m757[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m757[0m      * Transfer the file at the given `path`.
+[7m   [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m760[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m760[0m      * The callback `fn(err)` is invoked when the transfer is complete
+[7m   [0m [91m                     ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m761[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m761[0m      * or when an error occurs. Be sure to check `res.headersSent`
+[7m   [0m [91m                                                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m767[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m767[0m      *   - `maxAge`   defaulting to 0 (can be string converted by `ms`)
+[7m   [0m [91m            ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m767[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m767[0m      *   - `maxAge`   defaulting to 0 (can be string converted by `ms`)
+[7m   [0m [91m                                                                   ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m768[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m768[0m      *   - `root`     root directory for relative filenames
+[7m   [0m [91m            ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m769[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m769[0m      *   - `headers`  object of headers to serve with file
+[7m   [0m [91m            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m770[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m770[0m      *   - `dotfiles` serve dotfiles, defaulting to false; can be `"allow"` to send them
+[7m   [0m [91m            ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m770[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m770[0m      *   - `dotfiles` serve dotfiles, defaulting to false; can be `"allow"` to send them
+[7m   [0m [91m                                                                   ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m772[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m772[0m      * Other options are passed along to `send`.
+[7m   [0m [91m                                          ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m776[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m776[0m      *  The following example illustrates how `res.sendFile()` may
+[7m   [0m [91m                                               ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m777[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m777[0m      *  be used as an alternative for the `static()` middleware for
+[7m   [0m [91m                                           ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m778[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m778[0m      *  dynamic situations. The code backing `res.sendFile()` is actually
+[7m   [0m [91m                                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m817[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m817[0m      * Transfer the file at the given `path` as an attachment.
+[7m   [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m819[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m819[0m      * Optionally providing an alternate attachment `filename`,
+[7m   [0m [91m                                                     ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m820[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m820[0m      * and optional callback `fn(err)`. The callback is invoked
+[7m   [0m [91m                              ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m822[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m822[0m      * ocurred. Be sure to check `res.headersSent` if you plan to respond.
+[7m   [0m [91m                                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m827[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m827[0m      * This method uses `res.sendfile()`.
+[7m   [0m [91m                         ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m834[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m834[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m834[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m834[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m835[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m835[0m      * when it does not contain "/", or set the Content-Type to `type` otherwise.
+[7m   [0m [91m                                                                 ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m848[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m848[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m848[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m848[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m849[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m849[0m      * when it does not contain "/", or set the Content-Type to `type` otherwise.
+[7m   [0m [91m                                                                 ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m862[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m862[0m      * Respond to the Acceptable formats using an `obj`
+[7m   [0m [91m                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m865[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m865[0m      * This method uses `req.accepted`, an array of
+[7m   [0m [91m                         ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m873[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m873[0m      * you may alter this within the callback using `res.type()`
+[7m   [0m [91m                                                     ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m874[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m874[0m      * or `res.set('Content-Type', ...)`.
+[7m   [0m [91m           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m874[0m:[93m39[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m874[0m      * or `res.set('Content-Type', ...)`.
+[7m   [0m [91m                                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m907[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m907[0m      * By default Express passes an `Error`
+[7m   [0m [91m                                     ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m908[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m908[0m      * with a `.status` of 406 to `next(err)`
+[7m   [0m [91m                                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m916[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m916[0m      * Set _Content-Disposition_ header to _attachment_ with optional `filename`.
+[7m   [0m [91m                                                                       ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m921[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m921[0m      * Set header `field` to `val`, or pass
+[7m   [0m [91m                   ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m921[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m921[0m      * Set header `field` to `val`, or pass
+[7m   [0m [91m                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m930[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m930[0m      * Aliased as `res.header()`.
+[7m   [0m [91m                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m941[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m941[0m     /** Get value for header `field`. */
+[7m   [0m [91m                              ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m944[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m944[0m     /** Clear cookie `name`. */
+[7m   [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                                                   ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m952[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m952[0m      *    - `maxAge`   max-age in milliseconds, converted to `expires`
+[7m   [0m [91m             ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m952[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m952[0m      *    - `maxAge`   max-age in milliseconds, converted to `expires`
+[7m   [0m [91m                                                              ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m953[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m953[0m      *    - `signed`   sign the cookie
+[7m   [0m [91m             ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m954[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m954[0m      *    - `path`     defaults to "/"
+[7m   [0m [91m             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m969[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m969[0m      * Set the location header to `url`.
+[7m   [0m [91m                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m971[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m971[0m      * The given `url` can also be the name of a mapped url, for
+[7m   [0m [91m                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m983[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m983[0m      *   When an application is mounted and `res.location()`
+[7m   [0m [91m                                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m997[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m997[0m      * Redirect to the given `url` with optional response `status`
+[7m   [0m [91m                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m997[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m997[0m      * Redirect to the given `url` with optional response `status`
+[7m   [0m [91m                                                           ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1000[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1000[0m      * The resulting `url` is determined by `res.location()`, so
+[7m    [0m [91m                      ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1000[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1000[0m      * The resulting `url` is determined by `res.location()`, so
+[7m    [0m [91m                                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1002[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1002[0m      * `"back"` etc.
+[7m    [0m [91m        ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m                                     ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m                                                                     ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1025[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1025[0m      *  - `cache`     boolean hinting to the engine it should cache
+[7m    [0m [91m           ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1026[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1026[0m      *  - `filename`  filename of the view being rendered
+[7m    [0m [91m           ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1096[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1096[0m      * Register the given template engine callback `fn`
+[7m    [0m [91m                                                    ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1097[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1097[0m      * as `ext`.
+[7m    [0m [91m           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1099[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1099[0m      * By default will `require()` the engine based on the
+[7m    [0m [91m                        ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1114[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1114[0m      * though note that it aliases this method as `ejs.__express` internally
+[7m    [0m [91m                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m               ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m                            ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m                                             ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1165[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1165[0m      * Check if `setting` is enabled (truthy).
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1177[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1177[0m      * Check if `setting` is disabled.
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1188[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1188[0m     /** Enable `setting`. */
+[7m    [0m [91m                ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1191[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1191[0m     /** Disable `setting`. */
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1195[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1195[0m      * Render the given view `name` name with `options`
+[7m    [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1195[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1195[0m      * Render the given view `name` name with `options`
+[7m    [0m [91m                                               ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1211[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1211[0m      * A node `http.Server` is returned, with this
+[7m    [0m [91m               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1212[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1212[0m      * application (which is a `Function`) as its
+[7m    [0m [91m                                ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1280[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m1280[0m 
+[7m    [0m [91m[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1025[0m:[93m21[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m1025[0m         : K extends `${number}`
+[7m    [0m [91m                    ~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1026[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1026[0m             ? 'length' extends keyof T
+[7m    [0m [91m                       ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1026[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1026[0m             ? 'length' extends keyof T
+[7m    [0m [91m                                     ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1027[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1027[0m                 ? number extends T['length']
+[7m    [0m [91m                         ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1028[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1028[0m                     ? number extends keyof T
+[7m    [0m [91m                             ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1028[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1028[0m                     ? number extends keyof T
+[7m    [0m [91m                                           ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1031[0m:[93m21[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1031[0m                     : undefined
+[7m    [0m [91m                    ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m41[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                        ~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                 ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m55[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                      ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m57[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                        ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                               ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                             ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                    ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                               ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                                      ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                         ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                          ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                 ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                                   ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1307[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1307[0m          * Checks if `path` is a direct property of `object`.
+[7m    [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1307[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1307[0m          * Checks if `path` is a direct property of `object`.
+[7m    [0m [91m                                                     ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                             ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                                           ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1346[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1346[0m          * Checks if `path` is a direct or inherited property of `object`.
+[7m    [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1346[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1346[0m          * Checks if `path` is a direct or inherited property of `object`.
+[7m    [0m [91m                                                                  ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                             ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                                           ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1751[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1751[0m          * to `undefined`. Array and plain object properties are merged recursively.
+[7m    [0m [91m               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1756[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1756[0m          * **Note:** This method mutates `object`.
+[7m    [0m [91m                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1761[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1761[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1842[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1842[0m          * This method is like `_.merge` except that it accepts `customizer` which
+[7m    [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1842[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1842[0m          * This method is like `_.merge` except that it accepts `customizer` which
+[7m    [0m [91m                                                                 ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1844[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1844[0m          * properties. If `customizer` returns `undefined` merging is handled by the
+[7m    [0m [91m                           ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1844[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1844[0m          * properties. If `customizer` returns `undefined` merging is handled by the
+[7m    [0m [91m                                                ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1845[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1845[0m          * method instead. The `customizer` is invoked with seven arguments:
+[7m    [0m [91m                                ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1852[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1852[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1938[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1938[0m          * The opposite of `_.pick`; this method creates an object composed of the
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1939[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1939[0m          * own and inherited enumerable properties of `object` that are not omitted.
+[7m    [0m [91m                                                       ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2000[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2000[0m          * The opposite of `_.pickBy`; this method creates an object composed of the
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2001[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2001[0m          * own and inherited enumerable properties of `object` that `predicate`
+[7m    [0m [91m                                                       ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2001[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2001[0m          * own and inherited enumerable properties of `object` that `predicate`
+[7m    [0m [91m                                                                     ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2051[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2051[0m          * Creates an object composed of the picked `object` properties.
+[7m    [0m [91m                                                     ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2093[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2093[0m          * Creates an object composed of the `object` properties `predicate` returns
+[7m    [0m [91m                                              ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2093[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2093[0m          * Creates an object composed of the `object` properties `predicate` returns
+[7m    [0m [91m                                                                  ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2443[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2443[0m          * This method is like `_.update` except that it accepts `customizer` which is
+[7m    [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2443[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2443[0m          * This method is like `_.update` except that it accepts `customizer` which is
+[7m    [0m [91m                                                                  ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                              ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m59[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                                          ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                                                               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2445[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2445[0m          * path creation is handled by the method instead. The `customizer` is invoked
+[7m    [0m [91m                                                                ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2448[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2448[0m          * **Note:** This method mutates `object`.
+[7m    [0m [91m                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2456[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2456[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2581[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m2581[0m 
+[7m    [0m [91m[0m
+
+[[90m1:34:52 PM[0m] Found 193 errors. Watching for file changes.
+
+yarn run v1.22.19
+$ nest start --watch
+c[[90m1:35:23 PM[0m] Starting compilation in watch mode...
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m']' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                 ~~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                         ~~~~~~~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m70[0m - [91merror[0m[90m TS1011: [0mAn element access expression should take an argument.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                     [0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m83[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                  ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m84[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                   ~[0m
+
+[96m../../node_modules/@types/babel__traverse/index.d.ts[0m:[93m68[0m:[93m88[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m68[0m export type ArrayKeys<T> = keyof { [P in keyof T as T[P] extends any[] ? P : never]: P };
+[7m  [0m [91m                                                                                       ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m68[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m77[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                            ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m78[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                             ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m104[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m104[0m type RemoveTail<S extends string, Tail extends string> = S extends `${infer P}${Tail}` ? P : S;
+[7m   [0m [91m                                                                               ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m106[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m106[0m     RemoveTail<RemoveTail<S, `/${string}`>, `-${string}`>,
+[7m   [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m106[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m106[0m     RemoveTail<RemoveTail<S, `/${string}`>, `-${string}`>,
+[7m   [0m [91m                                               ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m107[0m:[93m8[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m107[0m     `.${string}`
+[7m   [0m [91m       ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                     ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m113[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m113[0m     : Route extends `${string}(${string}`
+[7m   [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                         ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                          ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m35[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                  ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m115[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m115[0m         : Route extends `${string}:${infer Rest}`
+[7m   [0m [91m                                           ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                   ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                           ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m119[0m:[93m70[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m119[0m                 : GetRouteParameter<Rest> extends `${infer ParamName}?`
+[7m   [0m [91m                                                                     ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                           ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m'(' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                    ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m123[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m123[0m             (Rest extends `${GetRouteParameter<Rest>}${infer Next}`
+[7m   [0m [91m                                                             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m239[0m:[93m41[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m239[0m      * Map the given param placeholder `name`(s) to the given callback(s).
+[7m   [0m [91m                                        ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m248[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m248[0m      * of the user. Once the `next()` function is invoked, just like middleware
+[7m   [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m274[0m:[93m62[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m274[0m      * Special-cased "all" method, applying the given route `path`,
+[7m   [0m [91m                                                             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m370[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m370[0m  * @param P  For most requests, this should be `ParamsDictionary`, but if you're
+[7m   [0m [91m                                                ~~~~~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m371[0m:[93m59[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m371[0m  * using this in a route handler for a route that uses a `RegExp` or a wildcard
+[7m   [0m [91m                                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m    ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m                        ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m372[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m372[0m  * `string` path (e.g. `'/user/*'`), then `req.params` will be an array, in
+[7m   [0m [91m                                           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m373[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m373[0m  * which case you should use `ParamsArray` instead.
+[7m   [0m [91m                              ~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m378[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m378[0m  *     app.get('/user/:id', (req, res) => res.send(req.params.id)); // implicitly `ParamsDictionary`
+[7m   [0m [91m                                                                                   ~~~~~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m393[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m393[0m      * The `Referrer` header field is special-cased,
+[7m   [0m [91m            ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m394[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m394[0m      * both `Referrer` and `Referer` are interchangeable.
+[7m   [0m [91m             ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m394[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m394[0m      * both `Referrer` and `Referer` are interchangeable.
+[7m   [0m [91m                            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m407[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m407[0m      * Aliased as `req.header()`.
+[7m   [0m [91m                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m416[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m416[0m      * Check if the given `type(s)` is acceptable, returning
+[7m   [0m [91m                           ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m417[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m417[0m      * the best match when true, otherwise `undefined`, in which
+[7m   [0m [91m                                            ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m420[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m420[0m      * The `type` value may be a single mime type string
+[7m   [0m [91m            ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m494[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m494[0m      * Parse Range header field, capping to the given `size`.
+[7m   [0m [91m                                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m498[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m498[0m      * If the Range header field is not given `undefined` is returned.
+[7m   [0m [91m                                               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m517[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m517[0m      * Return the value of param `name` when present or `defaultValue`.
+[7m   [0m [91m                                  ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m517[0m:[93m58[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m517[0m      * Return the value of param `name` when present or `defaultValue`.
+[7m   [0m [91m                                                         ~~~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m523[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m523[0m      * To utilize request bodies, `req.body`
+[7m   [0m [91m                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m525[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m525[0m      * the `connect.bodyParser()` middleware.
+[7m   [0m [91m            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m531[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m531[0m      * header field, and it contains the give mime `type`.
+[7m   [0m [91m                                                    ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m571[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m571[0m      * "trust proxy" is `true` return
+[7m   [0m [91m                         ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m577[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m577[0m      * When "trust proxy" is `true`, parse
+[7m   [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m600[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m600[0m      * Short-hand for `url.parse(req.url).pathname`.
+[7m   [0m [91m                       ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m680[0m:[93m76[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m680[0m     /** Object containing HTTP headers to serve with the file. The header `Content-Disposition` will be overridden by the filename argument. */
+[7m   [0m [91m                                                                           ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m691[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m691[0m      * Set status `code`.
+[7m   [0m [91m                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m696[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m696[0m      * Set the response HTTP status code to `statusCode` and send its string representation as the response body.
+[7m   [0m [91m                                             ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m709[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m709[0m      * Set Link header field with the given `links`.
+[7m   [0m [91m                                             ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m757[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m757[0m      * Transfer the file at the given `path`.
+[7m   [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m760[0m:[93m22[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m760[0m      * The callback `fn(err)` is invoked when the transfer is complete
+[7m   [0m [91m                     ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m761[0m:[93m51[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m761[0m      * or when an error occurs. Be sure to check `res.headersSent`
+[7m   [0m [91m                                                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m767[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m767[0m      *   - `maxAge`   defaulting to 0 (can be string converted by `ms`)
+[7m   [0m [91m            ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m767[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m767[0m      *   - `maxAge`   defaulting to 0 (can be string converted by `ms`)
+[7m   [0m [91m                                                                   ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m768[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m768[0m      *   - `root`     root directory for relative filenames
+[7m   [0m [91m            ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m769[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m769[0m      *   - `headers`  object of headers to serve with file
+[7m   [0m [91m            ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m770[0m:[93m13[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m770[0m      *   - `dotfiles` serve dotfiles, defaulting to false; can be `"allow"` to send them
+[7m   [0m [91m            ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m770[0m:[93m68[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m770[0m      *   - `dotfiles` serve dotfiles, defaulting to false; can be `"allow"` to send them
+[7m   [0m [91m                                                                   ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m772[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m772[0m      * Other options are passed along to `send`.
+[7m   [0m [91m                                          ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m776[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m776[0m      *  The following example illustrates how `res.sendFile()` may
+[7m   [0m [91m                                               ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m777[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m777[0m      *  be used as an alternative for the `static()` middleware for
+[7m   [0m [91m                                           ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m778[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m778[0m      *  dynamic situations. The code backing `res.sendFile()` is actually
+[7m   [0m [91m                                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m817[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m817[0m      * Transfer the file at the given `path` as an attachment.
+[7m   [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m819[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m819[0m      * Optionally providing an alternate attachment `filename`,
+[7m   [0m [91m                                                     ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m820[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m820[0m      * and optional callback `fn(err)`. The callback is invoked
+[7m   [0m [91m                              ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m822[0m:[93m35[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m822[0m      * ocurred. Be sure to check `res.headersSent` if you plan to respond.
+[7m   [0m [91m                                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m827[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m827[0m      * This method uses `res.sendfile()`.
+[7m   [0m [91m                         ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m834[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m834[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m834[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m834[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m835[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m835[0m      * when it does not contain "/", or set the Content-Type to `type` otherwise.
+[7m   [0m [91m                                                                 ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m848[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m848[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m848[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m848[0m      * Set _Content-Type_ response header with `type` through `mime.lookup()`
+[7m   [0m [91m                                                               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m849[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m849[0m      * when it does not contain "/", or set the Content-Type to `type` otherwise.
+[7m   [0m [91m                                                                 ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m862[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m862[0m      * Respond to the Acceptable formats using an `obj`
+[7m   [0m [91m                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m865[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m865[0m      * This method uses `req.accepted`, an array of
+[7m   [0m [91m                         ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m873[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m873[0m      * you may alter this within the callback using `res.type()`
+[7m   [0m [91m                                                     ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m874[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m874[0m      * or `res.set('Content-Type', ...)`.
+[7m   [0m [91m           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m874[0m:[93m39[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m874[0m      * or `res.set('Content-Type', ...)`.
+[7m   [0m [91m                                      ~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m907[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m907[0m      * By default Express passes an `Error`
+[7m   [0m [91m                                     ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m908[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m908[0m      * with a `.status` of 406 to `next(err)`
+[7m   [0m [91m                                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m916[0m:[93m72[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m916[0m      * Set _Content-Disposition_ header to _attachment_ with optional `filename`.
+[7m   [0m [91m                                                                       ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m921[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m921[0m      * Set header `field` to `val`, or pass
+[7m   [0m [91m                   ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m921[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m921[0m      * Set header `field` to `val`, or pass
+[7m   [0m [91m                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m930[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m930[0m      * Aliased as `res.header()`.
+[7m   [0m [91m                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m941[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m941[0m     /** Get value for header `field`. */
+[7m   [0m [91m                              ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m944[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m944[0m     /** Clear cookie `name`. */
+[7m   [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m20[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                   ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m948[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m948[0m      * Set cookie `name` to `val`, with the given `options`.
+[7m   [0m [91m                                                   ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m952[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m952[0m      *    - `maxAge`   max-age in milliseconds, converted to `expires`
+[7m   [0m [91m             ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m952[0m:[93m63[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m952[0m      *    - `maxAge`   max-age in milliseconds, converted to `expires`
+[7m   [0m [91m                                                              ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m953[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m953[0m      *    - `signed`   sign the cookie
+[7m   [0m [91m             ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m954[0m:[93m14[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m954[0m      *    - `path`     defaults to "/"
+[7m   [0m [91m             ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m969[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m969[0m      * Set the location header to `url`.
+[7m   [0m [91m                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m971[0m:[93m19[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m971[0m      * The given `url` can also be the name of a mapped url, for
+[7m   [0m [91m                  ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m983[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m983[0m      *   When an application is mounted and `res.location()`
+[7m   [0m [91m                                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m997[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m997[0m      * Redirect to the given `url` with optional response `status`
+[7m   [0m [91m                              ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m997[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m997[0m      * Redirect to the given `url` with optional response `status`
+[7m   [0m [91m                                                           ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1000[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1000[0m      * The resulting `url` is determined by `res.location()`, so
+[7m    [0m [91m                      ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1000[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1000[0m      * The resulting `url` is determined by `res.location()`, so
+[7m    [0m [91m                                             ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1002[0m:[93m9[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1002[0m      * `"back"` etc.
+[7m    [0m [91m        ~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m                                     ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1019[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1019[0m      * Render `view` with the given `options` and optional callback `fn`.
+[7m    [0m [91m                                                                     ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1025[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1025[0m      *  - `cache`     boolean hinting to the engine it should cache
+[7m    [0m [91m           ~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1026[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1026[0m      *  - `filename`  filename of the view being rendered
+[7m    [0m [91m           ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1096[0m:[93m53[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1096[0m      * Register the given template engine callback `fn`
+[7m    [0m [91m                                                    ~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1097[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1097[0m      * as `ext`.
+[7m    [0m [91m           ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1099[0m:[93m25[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1099[0m      * By default will `require()` the engine based on the
+[7m    [0m [91m                        ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1114[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1114[0m      * though note that it aliases this method as `ejs.__express` internally
+[7m    [0m [91m                                                   ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m               ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m                            ~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1129[0m:[93m46[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1129[0m      * Assign `setting` to `val`, or return `setting`'s value.
+[7m    [0m [91m                                             ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1165[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1165[0m      * Check if `setting` is enabled (truthy).
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1177[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1177[0m      * Check if `setting` is disabled.
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1188[0m:[93m17[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1188[0m     /** Enable `setting`. */
+[7m    [0m [91m                ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1191[0m:[93m18[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1191[0m     /** Disable `setting`. */
+[7m    [0m [91m                 ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1195[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1195[0m      * Render the given view `name` name with `options`
+[7m    [0m [91m                              ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1195[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1195[0m      * Render the given view `name` name with `options`
+[7m    [0m [91m                                               ~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1211[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1211[0m      * A node `http.Server` is returned, with this
+[7m    [0m [91m               ~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1212[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1212[0m      * application (which is a `Function`) as its
+[7m    [0m [91m                                ~~~~~~~~[0m
+
+[96m../../node_modules/@types/express-serve-static-core/index.d.ts[0m:[93m1280[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m1280[0m 
+[7m    [0m [91m[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1025[0m:[93m21[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m1025[0m         : K extends `${number}`
+[7m    [0m [91m                    ~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1026[0m:[93m24[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1026[0m             ? 'length' extends keyof T
+[7m    [0m [91m                       ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1026[0m:[93m38[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1026[0m             ? 'length' extends keyof T
+[7m    [0m [91m                                     ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1027[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1027[0m                 ? number extends T['length']
+[7m    [0m [91m                         ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1028[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m1028[0m                     ? number extends keyof T
+[7m    [0m [91m                             ~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1028[0m:[93m44[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1028[0m                     ? number extends keyof T
+[7m    [0m [91m                                           ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1031[0m:[93m21[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1031[0m                     : undefined
+[7m    [0m [91m                    ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m41[0m - [91merror[0m[90m TS1110: [0mType expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                        ~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m50[0m - [91merror[0m[90m TS1005: [0m'}' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                 ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m55[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                      ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m57[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                        ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1043[0m:[93m64[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1043[0m     type GetFieldType<T, P> = P extends `${infer Left}.${infer Right}`
+[7m    [0m [91m                                                               ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                             ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m37[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                    ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                               ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1046[0m:[93m55[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1046[0m             : Left extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                                      ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m26[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                         ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                          ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m34[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                 ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m45[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1053[0m:[93m52[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m1053[0m             : P extends `${infer FieldKey}[${infer IndexKey}]`
+[7m    [0m [91m                                                   ~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1307[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1307[0m          * Checks if `path` is a direct property of `object`.
+[7m    [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1307[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1307[0m          * Checks if `path` is a direct property of `object`.
+[7m    [0m [91m                                                     ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                             ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1312[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1312[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                                           ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1346[0m:[93m23[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1346[0m          * Checks if `path` is a direct or inherited property of `object`.
+[7m    [0m [91m                      ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1346[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1346[0m          * Checks if `path` is a direct or inherited property of `object`.
+[7m    [0m [91m                                                                  ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                             ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m40[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                       ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1351[0m:[93m60[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1351[0m          * @returns Returns `true` if `path` exists, else `false`.
+[7m    [0m [91m                                                           ~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1751[0m:[93m16[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1751[0m          * to `undefined`. Array and plain object properties are merged recursively.
+[7m    [0m [91m               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1756[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1756[0m          * **Note:** This method mutates `object`.
+[7m    [0m [91m                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1761[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1761[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1842[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1842[0m          * This method is like `_.merge` except that it accepts `customizer` which
+[7m    [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1842[0m:[93m66[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1842[0m          * This method is like `_.merge` except that it accepts `customizer` which
+[7m    [0m [91m                                                                 ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1844[0m:[93m28[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1844[0m          * properties. If `customizer` returns `undefined` merging is handled by the
+[7m    [0m [91m                           ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1844[0m:[93m49[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1844[0m          * properties. If `customizer` returns `undefined` merging is handled by the
+[7m    [0m [91m                                                ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1845[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1845[0m          * method instead. The `customizer` is invoked with seven arguments:
+[7m    [0m [91m                                ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1852[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1852[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1938[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1938[0m          * The opposite of `_.pick`; this method creates an object composed of the
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m1939[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m1939[0m          * own and inherited enumerable properties of `object` that are not omitted.
+[7m    [0m [91m                                                       ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2000[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2000[0m          * The opposite of `_.pickBy`; this method creates an object composed of the
+[7m    [0m [91m                            ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2001[0m:[93m56[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2001[0m          * own and inherited enumerable properties of `object` that `predicate`
+[7m    [0m [91m                                                       ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2001[0m:[93m70[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2001[0m          * own and inherited enumerable properties of `object` that `predicate`
+[7m    [0m [91m                                                                     ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2051[0m:[93m54[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2051[0m          * Creates an object composed of the picked `object` properties.
+[7m    [0m [91m                                                     ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2093[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2093[0m          * Creates an object composed of the `object` properties `predicate` returns
+[7m    [0m [91m                                              ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2093[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2093[0m          * Creates an object composed of the `object` properties `predicate` returns
+[7m    [0m [91m                                                                  ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2443[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2443[0m          * This method is like `_.update` except that it accepts `customizer` which is
+[7m    [0m [91m                                ~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2443[0m:[93m67[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2443[0m          * This method is like `_.update` except that it accepts `customizer` which is
+[7m    [0m [91m                                                                  ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                              ~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m59[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                                          ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2444[0m:[93m80[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2444[0m          * invoked to produce the objects of `path`.  If `customizer` returns `undefined`
+[7m    [0m [91m                                                                               ~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2445[0m:[93m65[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2445[0m          * path creation is handled by the method instead. The `customizer` is invoked
+[7m    [0m [91m                                                                ~~~~~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2448[0m:[93m43[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2448[0m          * **Note:** This method mutates `object`.
+[7m    [0m [91m                                          ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2456[0m:[93m30[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m2456[0m          * @returns Returns `object`.
+[7m    [0m [91m                             ~~~~~~[0m
+
+[96m../../node_modules/@types/lodash/common/object.d.ts[0m:[93m2581[0m:[93m1[0m - [91merror[0m[90m TS1160: [0mUnterminated template literal.
+
+[7m2581[0m 
+[7m    [0m [91m[0m
+
+[[90m1:35:29 PM[0m] Found 193 errors. Watching for file changes.
+

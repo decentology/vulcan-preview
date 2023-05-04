@@ -1,0 +1,14 @@
+{
+    "name": "",
+    "blocks": {
+        "/blockchain/vulcan": true,
+        "/blockchain/vulcan/solidity": true,
+        "/framework/vanilla": true,
+        "/category/access_control/core-administrator_role": true,
+        "/category/asset_value_tracking/core-token": true,
+        "/category/asset_value_tracking/core-token/name": "Bob",
+        "/category/asset_value_tracking/core-token/symbol": "BOB",
+        "/category/asset_value_tracking/core-token/decimals": "18",
+        "/category/asset_value_tracking/core-token/supply": "10000000000"
+    }
+}
